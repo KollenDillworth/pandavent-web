@@ -12,16 +12,6 @@
 .text-spacing{
     letter-spacing: 6px;
 }
-
-.bg-cover2{
-    background-color: gray;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 .section{
     /* position: relative; */
 }
@@ -44,9 +34,6 @@
 
 @media (min-width: 1200px) { 
     
-    .bg-cover{
-        background-position: 50% 36% !important;
-    }
 
     .cover-text{
         padding-top: 43vh; 
@@ -72,9 +59,7 @@
 /* .bg-cover{
         background-position: 100% 40%;
     } */
-    .bg-cover{
-        background-position: 30% 50% !important;
-    }
+
     .cover-text{
         padding-top: 43vh; 
         font-size: 45px; 
@@ -83,9 +68,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) { 
-    .bg-cover{
-        background-position: 35% 50% !important;
-    }
+
     .cover-text{
         padding-top: 44vh; 
         font-size: 40px;  
@@ -94,9 +77,7 @@
    }
 
    @media (min-width: 576px) and (max-width: 767.98px) { 
-    .bg-cover{
-        background-position: 42% 50% !important;
-    }
+  
     .cover-text{
         padding-top: 44vh; 
         font-size: 40px;  
@@ -104,9 +85,7 @@
     }
    }
    @media (max-width: 575.98px) { 
-    .bg-cover{
-        background-position: 42% 50% !important;
-    }
+ 
     .cover-text{
         padding-top: 44vh; 
         font-size: 30px;  
