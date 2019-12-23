@@ -12,4 +12,10 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollToElement(element): void {
+
+    var elmnt = document.getElementById(element);
+    elmnt.scrollIntoView({behavior: "smooth", inline: "nearest"});
+  }
+
 }

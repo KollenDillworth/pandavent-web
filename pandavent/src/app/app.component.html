@@ -1,9 +1,16 @@
 <app-nav></app-nav>
 
   <section class="v-header container justify-content-center">
-    <div class="fullscreen-video-wrap">
+    <div class="fullscreen-video-wrap d-none d-sm-inline">
       <video autoplay muted loop oncanplay="this.play()" onloadedmetadata="this.muted = true" id="myVideo">
         <source src="/assets/videos/pandavent-promo-v2.mov" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <div class="fullscreen-video-wrap d-sm-none">
+      <video autoplay muted loop oncanplay="this.play()" onloadedmetadata="this.muted = true" id="myVideo">
+        <source src="/assets/videos/pandavent-promo-mobile.mov" type="video/mp4">
         Your browser does not support HTML5 video.
       </video>
     </div>
@@ -16,42 +23,66 @@
     </div>
   </section>
 
-  <section class="section section-a" id="what-we-offer">
+  <section class="section section-a mt-5" id="what-we-offer">
     <div class="container">
       What we offer section
     </div>
   </section>
 
-  <section class="section section-b" id="testimonials">
+  <section class="section section-b mt-5" id="testimonials">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 text-center text-lg-left">
           "OMG like what can I say? Pandavent is like so totally awesome and like its the best and like Kollen is soooo hot!"
-          <br>
-          <p class="text-right">-Makayla, AXO</p>
+          <!-- <br> -->
+          <div class="mt-2 mt-lg-0 text-center text-lg-right">-Makayla, AXO</div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-4 mt-lg-0 text-center text-lg-left">
           "Jobax is a nice guy. Kollen is THE ABSOLUTE GREATEST. And what a hunk! This guy is crazy sexy yall."
-          <br>
-          <p class="text-right">-Steph, KAO</p>
+          <div class="mt-2 mt-lg-0 text-center text-lg-right">-Steph, KAO</div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-4 mt-lg-0 text-center text-lg-left">
           "So Hawt."
-          <br>
-          <p class="text-right">-Amber, DZ</p>
+          <div class="mt-2 mt-lg-0 text-center text-lg-right">-Amber, DZ</div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section section-c" id="instagram">
+  <section class="section section-c mt-5" id="instagram">
     <div class="container">
     Instagram section
     </div>
   </section>
 
-  <section class="section section-d" id="contact">
-    <div class="container">
-    Contact section
+  <section class="section section-d mt-5 mb-5" id="contact">
+    <div class="container" style="border-radius: .35rem;">
+      <form class="pt-4 pb-4" style="border: 1px solid; border-radius: .35rem; background-color: aliceblue;">
+        <div class="form-group offset-3 col-6 pl-0 pr-0">
+          <label for="inputFirstName">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName">
+        </div>
+        <div class="form-group offset-3 col-6 pl-0 pr-0">
+          <label for="inputLastName">Last Name</label>
+          <input type="text" class="form-control" id="inputLastName">
+        </div>
+        <div class="form-group offset-3 col-6 pl-0 pr-0">
+          <label for="inputOrganization">Organization</label>
+          <input type="text" class="form-control" id="inputOrganization">
+        </div>
+        <div class="form-group offset-3 col-6 pl-0 pr-0">
+          <label for="inputSchool">School</label>
+          <input type="text" class="form-control" id="inputSchool">
+        </div>
+        <div class="form-group offset-3 col-6 pl-0 pr-0">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="form-group offset-3 col-6 pl-0 pr-0">
+          <label for="inputNumber">Number</label>
+          <input type="text" class="form-control" id="inputNumber">
+        </div>
+        <button type="submit" class="btn btn-primary offset-3 col-6">Send</button>
+      </form>
     </div>
   </section>
