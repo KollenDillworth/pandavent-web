@@ -36,10 +36,16 @@
         .logo-width{
             width: 350px;
         }
+        .icon-size{
+            width: 80px;
+        }
        }
        @media (max-width: 575.98px) { 
         .logo-width{
             width: 300px;
+        }
+        .icon-size{
+            width: 100px;
         }
         }
 
@@ -81,10 +87,39 @@
         }
 
         .theBox{
-            box-shadow: 0 0.32rem 0.32rem 0 rgba(77,4,163,.7);
+            box-shadow: 0 0.32rem 0.32rem 0 rgba(77,4,163,1);
         }
         .contact-text{
-            color: #ed1e79;
+            /* color: #ed1e79; */
         }
+
+        .contact-btn{
+            background-color: rgba(77,4,163);
+            border-color: rgba(77,4,163);
+            color: rgba(255,255,255);
+            font-weight: bold;
+        }
+
+        .contact-btn:hover{
+            background-color: rgba(77,4,163,.9);
+            border-color: rgba(77,4,163, .9);
+            font-weight: bold;
+        }
+
+        .contact-text {
+            /* font-size: 72px; */
+            background: -webkit-linear-gradient(left,#ed1e79, #4d04ae);
+            /* background: -webkit-linear-gradient(#4d04ae, #ed1e79); */
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .contact-text2 {
+            background: -webkit-linear-gradient(#ed1e79, #4d04ae);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
 
         
