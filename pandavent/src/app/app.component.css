@@ -4,6 +4,9 @@
         .logo-width{
             width: 600px;
         }
+        .icon-size{
+            width: 150px;
+        }
      }
     
      @media  (min-width: 992px) { 
@@ -15,11 +18,17 @@
         .logo-width{
             width: 500px;
         }
+        .icon-size{
+            width: 150px;
+        }
       }
     
       @media (min-width: 768px) and (max-width: 991.98px) { 
         .logo-width{
             width: 400px;
+        }
+        .icon-size{
+            width: 110px;
         }
        }
     
@@ -70,3 +79,12 @@
             z-index: 2;
             margin-bottom: 0;
         }
+
+        .theBox{
+            box-shadow: 0 0.32rem 0.32rem 0 rgba(77,4,163,.7);
+        }
+        .contact-text{
+            color: #ed1e79;
+        }
+
+        
